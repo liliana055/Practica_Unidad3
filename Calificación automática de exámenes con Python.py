@@ -51,4 +51,7 @@ print("\n ==== RESULTADOS DE LOS ESTUDIANTES ====")
 print(df_estudiantes[['Nombre','Puntuación']].sort_values('Puntuación', ascending=False).to_string(index=False))
 
 df_estudiantes.to_csv("resultados_examen.csv", index=False)
+Eliminar archivo Python innecesario
+
+
 print("\nResultados guardados en 'resultados_examen.csv'")
